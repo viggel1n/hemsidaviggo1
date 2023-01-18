@@ -1,13 +1,78 @@
-<link rel="stylesheet" href="minisajten.css" />
-<link rel="stylesheet" href="button.css" />
 
-    
-        <div class="button">
+<link rel="stylesheet" href="minisajten.css" />
+<link rel="stylesheet" href="comp.css" />
+
+
+<div class="navbar">
+    <ul> 
+        <div class="forre">
 
         
+        <a href="skin.html">ITEMSHOP /W RANK</a>
         </div>
+    </ul>
+    <ul> 
+        <div class="forre">
+        <a href="minisajten.html">BACK TO HOMEPAGE</a>
+    </div>
+    </ul>
+    
+</div>
    <div class="comp">
-<p>tjotjo</p>
+<p>CHECK OUT THE LATEST INFORMATION ABOUT THE FORTNITE COMPETITIVE SCENE ON THE OFFICIAL FORNITE TWITTER BY CLICKING ON THE ICON BELOW!</p>
    </div>
-        <a href="https://twitter.com/fncompetitive"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"Visit W3Schools.com! style="width:100px;"></a>
-   
+   <div class="twitter">
+        <a href="https://twitter.com/fncompetitive"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" style="width:170; height: 150px;"/></a>
+</div>
+<div class="comp">
+    <p>BELOW ARE SOME OF THE MOST MEMORABLE PLAYS OF ALL TIME THROUGH OUT FORTNITE COMPETITIVE HISTORY!</p>
+       </div>
+
+
+<div class="compvideo">
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+    <video id="myVideo" width="320" height="176">
+        <source src="mongraal.mp4" type="video/mp4">
+        <source src="mongraal.ogg" type="video/ogg">
+
+</video>
+
+</div>
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script>
+
+
+
+
+<div class="compvideo">
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+    <video id="myVideo2" width="320" height="176">
+        <source src="benjy.mp4" type="video/mp4">
+        <source src="benjy.ogg" type="video/ogg">
+
+</video>
+</div>
+<script> 
+var vid = document.getElementById("myVideo2"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script> 
